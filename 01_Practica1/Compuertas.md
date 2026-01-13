@@ -22,7 +22,7 @@ Su tabla de verdad es la siguiente:
 ![Compuerta AND](docs/AND.png)
 
 La compuerta AND toma dos entradas y produce una salida que es 1 solo si ambas entradas son 1. Si alguna de las entradas es 0, la salida será 0.
-Cuando ambas entradas A y B son 1, ambos transistores se encienden, conectando la salida a tierra y produciendo una salida de 0.
+Cuando ambas entradas A y B son 1, ambos transistores se encienden y dejan pasar la corriente desde vcc hasta la salida, resultando en una salida de 1.
 Si alguna de las entradas es 0, al menos uno de los transistores estará apagado, y la resistencia R10 subirá la salida a Vcc, resultando en una salida de 1.
 
 Su tabla de verdad es la siguiente:
